@@ -32,5 +32,9 @@ import androidx.compose.ui.unit.sp
                 fontSize = 18.sp
             )
             Spacer(modifier = Modifier.height(25.dp))
-
+            Card(
+                modifier = Modifier
+            ) {
+                // Isi Card nanti di sini
+            }
         }
