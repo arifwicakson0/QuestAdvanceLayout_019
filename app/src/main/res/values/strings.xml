@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">praktikum pertem 4</string>
+    <string name="nama">Abro Yudhistira</string>
+    <string name="alamat">Gamping, Jogja</string>
+    <string name="prodi">Teknologi Informasi</string>
+    <string name="univ">Universitas Muhammadiyah Yogyakarta</string>
+    <string name="copy">Copyright, 2025</string>
 </resources>
