@@ -22,5 +22,9 @@ import androidx.compose.ui.unit.sp
             .fillMaxSize(),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-
+            Text(
+                text = stringResource(id = R.string.prodi),
+                fontSize = 30.sp,
+                fontWeight = FontWeight.Bold
+            )
         }
