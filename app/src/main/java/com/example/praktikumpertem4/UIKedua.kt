@@ -94,3 +94,10 @@ fun UIKedua(modifier: Modifier = Modifier) {
 
             Spacer(modifier = Modifier.height(24.dp))
 
+            // Menu Buttons
+            MenuButton(icon = Icons.Filled.Lock, text = stringResource(id = R.string.menu_privacy))
+            MenuButton(icon = Icons.Filled.List, text = stringResource(id = R.string.menu_riwayat))
+            MenuButton(icon = Icons.Filled.Settings, text = stringResource(id = R.string.menu_pengaturan))
+
+            Spacer(modifier = Modifier.height(20.dp))
+
