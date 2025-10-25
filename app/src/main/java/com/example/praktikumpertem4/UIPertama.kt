@@ -91,4 +91,9 @@ fun Modifier.Companion.align(bottomCenter: Alignment) {
         modifier = Modifier
             .fillMaxSize()
     ){
+        Text(
+            text =stringResource(id= R.string.copy),
+
+        )
     }
+}
