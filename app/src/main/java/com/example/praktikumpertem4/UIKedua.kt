@@ -121,3 +121,13 @@ fun UIKedua(modifier: Modifier = Modifier) {
 
             Spacer(modifier = Modifier.height(24.dp))
 
+            // Footer
+            Text(
+                text = stringResource(id = R.string.footer_text),
+                color = Color.Gray,
+                fontSize = 12.sp
+            )
+        }
+    }
+}
+
