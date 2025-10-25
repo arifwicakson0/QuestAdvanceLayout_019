@@ -53,7 +53,7 @@ fun Modifier.Companion.align(bottomCenter: Alignment) {
                 .fillMaxWidth(fraction = 1f)
                 .padding(all = 12.dp),
             colors = CardDefaults.cardColors(
-                containerColor = Color.DarkGray
+                containerColor = Color.Red
             )
         ) {
             Row(
