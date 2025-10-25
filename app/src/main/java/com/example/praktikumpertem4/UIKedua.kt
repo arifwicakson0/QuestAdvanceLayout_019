@@ -131,3 +131,36 @@ fun UIKedua(modifier: Modifier = Modifier) {
     }
 }
 
+@Composable
+fun MenuButton(icon: androidx.compose.ui.graphics.vector.ImageVector, text: String) {
+    Card(
+        colors = CardDefaults.cardColors(containerColor = Color(0xFF2A2A2A)),
+        modifier = Modifier
+            .fillMaxWidth(0.9f)
+            .padding(vertical = 6.dp),
+        shape = RoundedCornerShape(20.dp),
+        elevation = CardDefaults.cardElevation(defaultElevation = 4.dp)
+    ) {
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(14.dp),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.Start
+        ) {
+            Icon(
+                imageVector = icon,
+                contentDescription = null,
+                tint = Color.White
+            )
+            Spacer(modifier = Modifier.width(16.dp))
+            Text(
+                text = text,
+                color = Color.White,
+                fontSize = 16.sp,
+                fontWeight = FontWeight.Medium
+            )
+        }
+    }
+}
+
