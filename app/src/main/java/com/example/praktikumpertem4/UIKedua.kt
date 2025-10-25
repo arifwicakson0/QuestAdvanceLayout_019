@@ -38,3 +38,11 @@ fun UIKedua(modifier: Modifier = Modifier) {
             modifier = Modifier.fillMaxSize()
         )
 
+        // Konten utama
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(top = 40.dp, start = 16.dp, end = 16.dp),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+
