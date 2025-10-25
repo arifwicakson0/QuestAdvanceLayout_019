@@ -30,3 +30,11 @@ fun UIKedua(modifier: Modifier = Modifier) {
         modifier = modifier
             .fillMaxSize()
     ) {
+        // Background
+        Image(
+            painter = painterResource(id = R.drawable.background),
+            contentDescription = null,
+            contentScale = ContentScale.Crop,
+            modifier = Modifier.fillMaxSize()
+        )
+
