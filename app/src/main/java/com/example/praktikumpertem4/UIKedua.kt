@@ -164,3 +164,15 @@ fun MenuButton(icon: androidx.compose.ui.graphics.vector.ImageVector, text: Stri
     }
 }
 
+@Composable
+fun IconSosmed(iconId: Int) {
+    Image(
+        painter = painterResource(id = iconId),
+        contentDescription = null,
+        modifier = Modifier
+            .size(32.dp)
+            .padding(horizontal = 6.dp)
+            .clickable { /* buka link sosial media */ },
+        contentScale = ContentScale.Fit
+    )
+}
