@@ -46,3 +46,15 @@ fun UIKedua(modifier: Modifier = Modifier) {
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
 
+            // Foto Profil
+            Image(
+                painter = painterResource(id = R.drawable.foto_arif),
+                contentDescription = "Foto Profil Arif",
+                contentScale = ContentScale.Crop,
+                modifier = Modifier
+                    .size(120.dp)
+                    .clip(CircleShape)
+            )
+
+            Spacer(modifier = Modifier.height(16.dp))
+
