@@ -85,3 +85,12 @@ fun UIKedua(modifier: Modifier = Modifier) {
 
             Spacer(modifier = Modifier.height(8.dp))
 
+            // Deskripsi
+            Text(
+                text = stringResource(id = R.string.user_description),
+                color = Color.White,
+                fontSize = 16.sp
+            )
+
+            Spacer(modifier = Modifier.height(24.dp))
+
