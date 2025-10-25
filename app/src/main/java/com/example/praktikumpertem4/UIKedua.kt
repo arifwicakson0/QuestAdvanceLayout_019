@@ -69,3 +69,19 @@ fun UIKedua(modifier: Modifier = Modifier) {
                 IconSosmed(iconId = R.drawable.linkedin)
             }
 
+            // Nama & Username
+            Text(
+                text = stringResource(id = R.string.user_name),
+                color = Color.White,
+                fontSize = 22.sp,
+                fontWeight = FontWeight.Bold
+            )
+
+            Text(
+                text = stringResource(id = R.string.user_username),
+                color = Color.Gray,
+                fontSize = 14.sp
+            )
+
+            Spacer(modifier = Modifier.height(8.dp))
+
