@@ -58,3 +58,14 @@ fun UIKedua(modifier: Modifier = Modifier) {
 
             Spacer(modifier = Modifier.height(16.dp))
 
+            // Deretan ikon media sosial
+            Row(
+                modifier = Modifier.padding(vertical = 8.dp),
+                horizontalArrangement = Arrangement.Center
+            ) {
+                IconSosmed(iconId = R.drawable.facebook)
+                IconSosmed(iconId = R.drawable.instagram)
+                IconSosmed(iconId = R.drawable.youtube)
+                IconSosmed(iconId = R.drawable.linkedin)
+            }
+
