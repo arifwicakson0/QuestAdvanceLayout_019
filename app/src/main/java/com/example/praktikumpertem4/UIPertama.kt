@@ -93,6 +93,8 @@ fun Modifier.Companion.align(bottomCenter: Alignment) {
     ){
         Text(
             text =stringResource(id= R.string.copy),
+            modifier = Modifier
+                .align(Alignment.BottomCenter)
 
         )
     }
