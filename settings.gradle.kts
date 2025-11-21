@@ -21,4 +21,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "praktikum pertem 4"
 include(":app")
+include(":app")
+include(":app")
  

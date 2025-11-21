@@ -2,4 +2,8 @@
 <resources>
 
     <style name="Theme.PraktikumPertem4" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.PraktikumPrtem6" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.QuestNavigasiUI_019" parent="android:Theme.Material.Light.NoActionBar" />
 </resources>
